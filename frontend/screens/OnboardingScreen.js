@@ -60,7 +60,7 @@ const OnboardingScreen = ({ navigation }) => {
               <Text style={styles.buttonText}>Join the movement!</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity onPress={() => navigation.navigate('Login')}>
+            <TouchableOpacity onPress={() => navigation.navigate('LoginScreen1')}>
               <Text style={styles.loginText}>Login</Text>
             </TouchableOpacity>
           </View>
